@@ -1,0 +1,5 @@
+curl --location --request POST 'http://localhost:54340/example' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "hello": "world"
+}'
